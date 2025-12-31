@@ -17,6 +17,7 @@ public class Main {
         SnakeGame snakeGame = new SnakeGame(boardWidth, boardHeight);
         frame.add(snakeGame);
         frame.pack(); // put the jpanel inside the frame with full dimentions
+        snakeGame.requestFocus(); // game is the one listening to key presses
 
     }
 }
